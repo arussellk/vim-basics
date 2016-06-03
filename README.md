@@ -19,7 +19,7 @@ We will focus on three of Vim's modes:
 - Visual
 
 **Insert** mode is most similar to text editors with which you are familiar.
-Each key you press (e.g. a, b, <enter>, :, #) is inserted directly into the document.
+Each key you press (e.g. a, b, \<enter\>, :, #) is inserted directly into the document.
 
 **Normal** mode allows you to move your cursor around the document.
 
