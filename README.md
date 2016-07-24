@@ -38,7 +38,23 @@ I don't know why (or if) you should use Vim. I can tell you why I use it though.
       Before using Vim, I would fumble hotkeys when I changed editors or OSes.
       I can go between any combination of keyboard, OS, and editor and have the same experience with Vim.
 
-### Basic Movement (works from normal and visual modes)
+### Changing modes
+
+- Press `esc` from insert to go to normal mode.
+
+
+- Press `i` from normal to go to insert before the cursor.
+- Press `a` from normal to go to insert after the cursor.
+- Press `I` from normal to go to insert at the beginning of the line.
+- Press `A` from normal to go to insert at the end of the line.
+
+
+- Press `v` from normal to go to visual.
+- Press `V` from normal to go to visual line (you will select and highlight the entire line).
+
+### Movement (works from normal and visual modes)
+
+#### Basic
 
 - `h`: move left one column
 - `j`: move down one line
@@ -62,7 +78,7 @@ You can visualize it like this:
 - `^`: move to the first non-whitespace character of the current line
 - `$`: move to the end of the line
 
-### More Movement
+#### More
 
 - `gg`: move to the beginning of the first line of the document
 - `G`: move to the beginning of the last line of the document
