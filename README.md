@@ -99,3 +99,42 @@ You can visualize it like this:
 - `H`: move to the first visible line on the screen (think High)
 - `M`: move to the middle visible line on the screen (think Middle)
 - `L`: move to the last visible line on the screen (think Low)
+
+### Helpful things for editing
+
+Deleting and yanking puts the selected contents into a register.
+If you do not specify a register, the contents go into the default register.
+
+#### Delete (cut)
+
+- `d<something>`: delete according to `<something>` movement
+  - `dw` deletes a word
+  - `dG` deletes to the end of the document
+  - `dd` is a special case and deletes the current line
+
+#### Copy (yank)
+
+- `y<something>`: copy according to `<something>` movement
+  - `yw` yanks a word
+  - `yG` yanks to the end of the document
+  - `yy` is a special case and deletes the current line
+
+#### Paste
+
+- `p`: paste the default register in front of your cursor
+- `P`: paste the default register behind your cursor
+
+#### Undo
+
+- `u`: undo the last action
+
+#### Repeat action
+
+- `.`: repeat the last action (you can move your cursor before repeating the action)
+
+#### Indentation
+
+- `>`: indent the current selection
+- `<`: outdent the current selection
+- `>>`: indent the current line
+- `<<`: outdent the current line
