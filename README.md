@@ -52,6 +52,18 @@ I don't know why (or if) you should use Vim. I can tell you why I use it though.
 - Press `v` from normal to go to visual.
 - Press `V` from normal to go to visual line (you will select and highlight the entire line).
 
+### Mapping keys
+
+You can map any key (or combination of keys) to anything else.
+
+The only key remap I use is `jk` to `esc`.
+
+Look at the other files in this repository to see how to set up that mapping for your system:
+
+- `.vimrc`: Vim from command line, VSVim extension for Visual Studio, IdeaVim for Jetbrains IDEs
+- `Default.sublime-keymap`: Sublime Text 3
+- `settings.json`: VSCodeVim extension for Visual Studio Code
+
 ### Movement (works from normal and visual modes)
 
 #### Basic
