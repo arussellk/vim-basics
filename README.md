@@ -170,3 +170,7 @@ Example:
 - `'a` to return to line 150 and continue coding
 
 If you use capital letters, marks are accesible across documents.
+
+### Macros
+
+Macros let you do the same actions multiple times.
