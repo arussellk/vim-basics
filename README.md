@@ -138,3 +138,18 @@ If you do not specify a register, the contents go into the default register.
 - `<`: outdent the current selection
 - `>>`: indent the current line
 - `<<`: outdent the current line
+
+### Searching
+
+Vim uses regular expressions when searching.
+I just type normal text and ignore that it is being translated to regex.
+
+- `/`: start a search
+- `enter`: execute search
+- `n`: move to next find
+- `N`: move to previous find
+
+You can also "search" for the word your cursor is currently on:
+
+- `*`: move to next match
+- `#`: move to previous match
