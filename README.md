@@ -64,6 +64,8 @@ Look at the other files in this repository to see how to set up that mapping for
 - `Default.sublime-keymap`: Sublime Text 3
 - `settings.json`: VSCodeVim extension for Visual Studio Code
 
+Read this for more information about key mapping: http://stackoverflow.com/a/3776182
+
 ### Movement (works from normal and visual modes)
 
 #### Basic
