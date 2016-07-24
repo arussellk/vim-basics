@@ -153,3 +153,20 @@ You can also "search" for the word your cursor is currently on:
 
 - `*`: move to next match
 - `#`: move to previous match
+
+### Marks
+
+You can set marks in you document to quickly jump back to that position.
+
+- `m<something>`: set a marks
+- `'<something>`: move to line of mark
+- `<backtick><something>`: move to line and column of mark
+
+`<something>` can be any letter. I typically use `a`.
+
+Example:
+- `ma` to set a mark on, say, line 150
+- `gg` to look at the top of the document (perhaps to check `using` statements)
+- `'a` to return to line 150 and continue coding
+
+If you use capital letters, marks are accesible across documents.
