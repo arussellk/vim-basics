@@ -99,6 +99,8 @@ You can visualize it like this:
 - `H`: move to the first visible line on the screen (think High)
 - `M`: move to the middle visible line on the screen (think Middle)
 - `L`: move to the last visible line on the screen (think Low)
+- `f<char>`: move to next instance of `<char>` on current line (think find)
+- `t<char>`: move to position immediately before next instance of `<char>` on current line (think to)
 
 ### Helpful things for editing
 
